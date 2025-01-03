@@ -6,6 +6,9 @@ class PrefKey {
   //category
   static const String animal = StringConstant.animals;
   static const String fruitAndVegetables = StringConstant.fruitAndVegetables;
+  static const String birds = StringConstant.birds;
+  static const String transport = StringConstant.transport;
+  static const String clothing = StringConstant.clothing;
   // static const String userId = "user_id";
 
 }

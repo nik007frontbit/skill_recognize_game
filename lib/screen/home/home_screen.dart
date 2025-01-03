@@ -19,7 +19,19 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
     {
       "name": StringConstant.fruitAndVegetables,
       "questionList": QuestionHelper.fruitAndVegetableList,
-    }
+    },
+    {
+      "name": StringConstant.birds,
+      "questionList": QuestionHelper.birdsList,
+    },
+    {
+      "name": StringConstant.transport,
+      "questionList": QuestionHelper.transportationList,
+    },
+    {
+      "name": StringConstant.clothing,
+      "questionList": QuestionHelper.clothingQList,
+    },
   ];
 
   late List<AnimationController> _controllers;

@@ -1,4 +1,8 @@
+import 'package:skill_recognition_game/models/catelog/birds.dart';
+import 'package:skill_recognition_game/models/catelog/transports.dart';
+
 import 'catelog/animals.dart';
+import 'catelog/clothing.dart';
 import 'catelog/fruit_and_vegitabls.dart';
 
 class Question {
@@ -25,7 +29,6 @@ class Question {
 }
 
 class QuestionHelper {
-
   static List<Question> animalList = animalQuestions.map((q) {
     return Question(
       id: q["id"],
@@ -37,6 +40,36 @@ class QuestionHelper {
     );
   }).toList();
   static List<Question> fruitAndVegetableList = fruitAndVegetableQuestions.map((q) {
+    return Question(
+      id: q["id"],
+      questionText: q['questionText'],
+      options: List<String>.from(q['options']),
+      correctOptionIndex: q['correctOptionIndex'],
+      imagePath: q['imagePath'],
+      soundPath: q['soundPath'],
+    );
+  }).toList();
+  static List<Question> birdsList = birdQuestions.map((q) {
+    return Question(
+      id: q["id"],
+      questionText: q['questionText'],
+      options: List<String>.from(q['options']),
+      correctOptionIndex: q['correctOptionIndex'],
+      imagePath: q['imagePath'],
+      soundPath: q['soundPath'],
+    );
+  }).toList();
+  static List<Question> transportationList = transportQuestions.map((q) {
+    return Question(
+      id: q["id"],
+      questionText: q['questionText'],
+      options: List<String>.from(q['options']),
+      correctOptionIndex: q['correctOptionIndex'],
+      imagePath: q['imagePath'],
+      soundPath: q['soundPath'],
+    );
+  }).toList();
+  static List<Question> clothingQList = clothingQuestions.map((q) {
     return Question(
       id: q["id"],
       questionText: q['questionText'],

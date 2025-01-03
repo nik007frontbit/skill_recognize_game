@@ -93,4 +93,60 @@ List<Map<String, dynamic>> animalQuestions = [
     "correctOptionIndex": 3, // Panther
     "imagePath": "${StringConstant.animalImageBase}/Panther.${StringConstant.webp}",
   },
+  {
+    "id": "${PrefKey.animal}_14",
+    "questionText": "Which animal is known for its eight legs and ability to squirt ink?",
+    "options": ["Frog", "Crab", "Octopus", "Dolphin"],
+    "correctOptionIndex": 2, // Octopus
+    "imagePath": "${StringConstant.animalImageBase}/Octopus.${StringConstant.webp}"
+  },
+  {
+    "id": "${PrefKey.animal}_15",
+    "questionText": "Which animal is a domestic farm animal known for giving milk?",
+    "options": ["Sheep", "Cow", "Goat", "Buffalo"],
+    "correctOptionIndex": 1, // Cow
+    "imagePath": "${StringConstant.animalImageBase}/Cow.${StringConstant.webp}"
+  },
+  {
+    "id": "${PrefKey.animal}_16",
+    "questionText": "Which animal is known for its pincers and lives in the sea?",
+    "options": ["Crab", "Octopus", "Lobster", "Shrimp"],
+    "correctOptionIndex": 0, // Crab
+    "imagePath": "${StringConstant.animalImageBase}/Crab.${StringConstant.webp}"
+  },
+  {
+    "id": "${PrefKey.animal}_17",
+    "questionText": "Which animal is known as a reptile and has a tough skin with sharp teeth?",
+    "options": ["Turtle", "Snake", "Crocodile", "Lizard"],
+    "correctOptionIndex": 2, // Crocodile
+    "imagePath": "${StringConstant.animalImageBase}/Crocodile.${StringConstant.webp}"
+  },
+  {
+    "id": "${PrefKey.animal}_18",
+    "questionText": "Which animal is a sea creature that is known for its intelligence and friendly nature?",
+    "options": ["Shark", "Dolphin", "Whale", "Seal"],
+    "correctOptionIndex": 1, // Dolphin
+    "imagePath": "${StringConstant.animalImageBase}/Dolphin.${StringConstant.webp}"
+  },
+  {
+    "id": "${PrefKey.animal}_19",
+    "questionText": "Which animal is an amphibian that can jump and is often green in color?",
+    "options": ["Snake", "Frog", "Lizard", "Newt"],
+    "correctOptionIndex": 1, // Frog
+    "imagePath": "${StringConstant.animalImageBase}/Frog.${StringConstant.webp}"
+  },
+  {
+    "id": "${PrefKey.animal}_20",
+    "questionText": "Which animal is known for its soft wool and is often found on farms?",
+    "options": ["Cow", "Sheep", "Goat", "Llama"],
+    "correctOptionIndex": 1, // Sheep
+    "imagePath": "${StringConstant.animalImageBase}/Sheep.${StringConstant.webp}"
+  },
+  {
+    "id": "${PrefKey.animal}_21",
+    "questionText": "Which animal has a hard shell and moves slowly?",
+    "options": ["Turtle", "Snail", "Crocodile", "Crab"],
+    "correctOptionIndex": 0, // Turtle
+    "imagePath": "${StringConstant.animalImageBase}/Turtle.${StringConstant.webp}"
+  },
 ];
